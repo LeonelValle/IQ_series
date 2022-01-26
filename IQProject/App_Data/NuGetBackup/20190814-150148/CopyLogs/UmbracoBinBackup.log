@@ -1,0 +1,64 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Wed Aug 14 15:01:49 2019
+
+   Source : C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\
+     Dest : C:\Users\leonel.valle\source\repos\IQProject\IQProject\App_Data\NuGetBackup\20190814-150148\bin\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\
+	  New Dir          6	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\
+	    New File  		    6529	DataTable to Sheet.xlsx  0%  100%  
+	    New File  		   3.1 m	GemBox.Spreadsheet.dll  0%   15%   31%   47%   62%   78%   94%  100%  
+	    New File  		   1.0 m	GemBox.Spreadsheet.xml  0%   24%   49%   74%   98%  100%  
+	    New File  		   98304	IQProject.exe  0%  100%  
+	    New File  		    2894	IQProject.exe.config  0%  100%  
+	    New File  		   60928	IQProject.pdb  0%  100%  
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\cs\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\da\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\de\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\en\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\es\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\fi\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\fr\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\hu\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\it\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\ja\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\ko\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\nb-NO\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\nl\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\pl\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\pt\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\ru\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\sk\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\SqlServerTypes\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\SqlServerTypes\x64\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\SqlServerTypes\x86\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\sv\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\th\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\tr\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\zh-CHS\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Debug\zh-CHT\
+	  New Dir          0	C:\Users\leonel.valle\source\repos\IQProject\IQProject\bin\Release\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        28        27         1         0         0         0
+   Files :         6         6         0         0         0         0
+   Bytes :    4.36 m    4.36 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           198823782 Bytes/sec.
+   Speed :           11376.788 MegaBytes/min.
+
+   Ended : Wed Aug 14 15:01:49 2019

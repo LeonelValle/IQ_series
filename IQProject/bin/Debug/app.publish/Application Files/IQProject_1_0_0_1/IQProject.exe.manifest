@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="IQProject.exe" version="1.0.0.1" publicKeyToken="de80e24e916f5da6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="IQProject" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="IQProject.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IQProject.exe" size="201152">
+      <assemblyIdentity name="IQProject" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+H3l5oi6Vu8WWTBDQC14IodqIEWIq00WXjCzXZTd0wU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="IQProject.exe.config" size="4854">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nCarird1UhWBhyIBR19KArGSbu5+fTJrfWmlbJ007M0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MEI\leonel.valle" issuerKeyHash="33ddb7748b9da6d7ede0435cd69232771b4dc7bd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>oPAV5Ay0HMf5Ds5Y52AfrvoOaj+F8EO1Zu6XvTRZ7y4=</DigestValue></Reference></SignedInfo><SignatureValue>iOjhnIWKdrEbfyLyW96JnaOpAci5ZBjHz2d8PlhEHgpU4iZ93aSnm/1bU8xS7Ygbt+OeX2WleqqKwv/3WGTDT8zgvSIY5dMCQ2t1uM/pEsZ5aR7ZeSsZu9zOeybios449dtnfvyX4WyROcc5SGWFO0xhG2yVvfrKG2VWs3tr7cg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sl8G0pH6quZh3aB1IvJPTCjb7tDnpZBd4W0msjhlVkkATgRY8ynYIJVgpZbLzd+tXO1L4esJkT9RAg99EZJ148N9gf8264aGq1W9pyzFWXIP8ziX26tsv257DTAI5J/y8GZ9tC3gLdytbhKzZgkQiuuSfP8XJ8d0g+ThaOtG9tk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2eef5934bd97ee66b543f0853f6a0efaae1f60e758ce0ef9c71cb40ce415f0a0" Description="" Url=""><as:assemblyIdentity name="IQProject.exe" version="1.0.0.1" publicKeyToken="de80e24e916f5da6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MEI\leonel.valle</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>nb5QQhpXF18mFjAMIFCMo2vDFfBIomebudQjbcEyt00=</DigestValue></Reference></SignedInfo><SignatureValue>j6PdaGZsynp1QzOn3M7kATZMCQykNRrp4iJlG4FrQgknGaT5LsvTXYrLOWiHIdaQgOQmOjrQZJHROxpIB/w2Xkj3McSLMM5HLEqN8o/U9KNAX+7/TOFERpqMvZA//D2BJ0q5KAHQxloTGtViuxa7ElLN/k6VFQm5R6TEkNvCwL4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sl8G0pH6quZh3aB1IvJPTCjb7tDnpZBd4W0msjhlVkkATgRY8ynYIJVgpZbLzd+tXO1L4esJkT9RAg99EZJ148N9gf8264aGq1W9pyzFWXIP8ziX26tsv257DTAI5J/y8GZ9tC3gLdytbhKzZgkQiuuSfP8XJ8d0g+ThaOtG9tk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQF0mCTTU8GoVEsbWVEjAEGjANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAATQBFAEkAXABsAGUAbwBuAGUAbAAuAHYAYQBsAGwAZTAeFw0yMDA5MDcxODMzMTNaFw0yMTA5MDgwMDMzMTNaMCsxKTAnBgNVBAMeIABNAEUASQBcAGwAZQBvAG4AZQBsAC4AdgBhAGwAbABlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyXwbSkfqq5mHdoHUi8k9MKNvu0OelkF3hbSayOGVWSQBOBFjzKdgglWCllsvN361c7Uvh6wmRP1ECD30RknXjw32B/zbrhoarVb2nLMVZcg/zOJfbq2y/bnsNMAjkn/LwZn20LeAt3K1uErNmCRCK65J8/xcnx3SD5OFo60b22QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACarVT60z+khU+V/iYnVMq547ShE3KaxbJvJoVnsFuyU2StJjtA/oLHAAfG7W0TwAYtKDzfjCZik2pHo4/4NK/qHk+IMOgzgTFVmf4GyLJffuTVvslvuWXCILTdLk9IWKKh8amin8fu1XDU1LSEw7BC7A8q0B3+RNK8cT9CCdpio</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
